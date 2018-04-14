@@ -1,0 +1,158 @@
+body{
+    width: auto;
+}
+
+.mainHead{
+    font-family: "Frijole", cursive; 
+    font-size: 12vw;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 1px;
+    margin-top: 2%;
+    
+}
+
+.subHead{
+    font-family: "Londrina Shadow", cursive;
+    text-align: right;
+    margin-right: 25px;
+    margin-top: 0%;
+    font-size: 13px;
+}
+
+.navWrapper{
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.navBar{
+    padding: 5px;
+    width: 83%;
+    font-family: "Mina", sans-serif;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border: solid black 1px;
+    border-radius: 30px;
+    box-shadow: 1px 1px 15px 2px;
+    margin: 0 auto;
+}
+
+.imageWrapper{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    padding: 5px;
+}
+
+img {
+    margin: 5px;
+    border: solid black 10px;
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    img.group_one {
+        height: 200px;;
+    }
+
+    img.group_two {
+        height: 400px;
+    }
+
+    img.group_three {
+        height: 400px;
+    }
+
+    img.group_four {
+        height: 200px;
+    }
+
+    #phluff_seven {
+        height: 200px;
+    }
+}
+
+@media only screen and (min-device-width: 768px) {
+    img.group_one {
+        height: 400px;;
+    }
+
+    img.group_two {
+        height: 800px;
+    }
+
+    img.group_three {
+        height: 800px;
+    }
+
+    img.group_four {
+        height: 400px;
+    }
+
+    #phluff_seven {
+        height: 400px;
+    }
+  }
+
+@media only screen and (min-width: 1024px) {
+   img{
+       border: solid black 5px;
+   }
+    
+    .imageWrapper {
+        padding: 15px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    img.group_one {
+        width: 47%;
+        display: flex;
+        flex-direction: row;
+        margin: 2px;
+    }
+
+    img.group_two {
+        margin: 2px;
+        width: 31%;
+        height: 80%;
+        display: flex;
+        flex-direction: row;
+    }
+
+    img.group_three {
+        margin: 2px;
+        display: flex;
+        flex-direction: row;
+        
+    }
+    #phluff_six {
+        
+        width: 34%;
+    }
+
+    #phluff_seven {
+        width: 60%;
+        height: auto;
+    }
+
+    .group_four {
+        margin: 2px;
+        width: 47%;
+    }
+   
+}
+
+
