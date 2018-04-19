@@ -11,14 +11,13 @@
     <h3 class="subHead">Playing the music of Phish</h3>
     <div class="navWrapper">
         <ul class="navBar">
-            <li>Home</li>
-            <li>Images</li>
-            <li>Videos</li>
-            <li>Gigs/Booking</li>
+            <li><a href = "#!/home">Home</a></li>
+            <li><a href = "#!/images">Images</a></li>
+            <li><a href = "#!/video">Videos</a></li>
+            <li><a href = "#!/booking">Gigs/Booking</a></li>
         </ul>
     </div>
-    <image-component></image-component>
-    <video-component></video-component>
+    <ng-view></ng-view>
 
 
 
@@ -26,6 +25,7 @@
 
 
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.7/angular-route.min.js"></script>
     <script src="module.js"></script>
     <script src="components/home.js"></script>
     <script src="components/images.js"></script>
